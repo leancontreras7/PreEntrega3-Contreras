@@ -1,0 +1,57 @@
+@use '_commons';
+
+
+
+/*index*/
+header{
+  height: auto;
+  
+}
+
+#menuylogo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    background: linear-gradient(to right, black, #484848);
+    list-style: none;
+
+  }
+  
+  
+
+nav ul{
+
+    font-family: sans-serif;
+
+    
+}
+
+nav ul li{
+
+  font-weight: bold;
+  list-style: none;
+  
+ 
+} 
+
+nav ul li a{
+
+  color: white;
+  text-decoration: none;
+  
+
+  &:hover{
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    ;
+
+  }
+}
+
+
+  
+

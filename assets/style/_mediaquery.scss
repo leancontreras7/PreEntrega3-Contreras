@@ -1,0 +1,29 @@
+@use '_commons';
+
+
+@media only screen and (min-width: 768px) {
+    nav ul li {
+      font-family: sans-serif;
+      flex-direction: row;
+      display: inline-block;
+      gap: 10px;
+    }
+
+
+    .contenedor__gallery{
+
+        grid-template-columns: 1fr 1fr;
+    }
+} 
+
+
+@media only screen and (min-width: 1280px){
+
+    .contenedor__gallery{
+    
+    grid-template-columns:repeat(3,1fr);
+
+    }
+}
+
+

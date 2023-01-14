@@ -1,0 +1,42 @@
+@use '_commons';
+
+
+#contenedor__historia{
+
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    background-color:blue;   
+   ;
+    .historia__foto{
+
+        width: calc(100%/2);
+        border-radius: 5px;
+    
+    
+        &:hover{
+    
+            filter: opacity(0.9);
+            transform: scale(1.06);
+        }
+        
+    
+    }
+    
+    
+    
+    .historia__texto{
+        font-size: 3vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color:black;
+        padding-left: 10px;
+            
+    }
+
+}
+
+
+
