@@ -1,4 +1,4 @@
-@use '_commons';
+@use '_commons' as c;
 
 
 #contenedor__historia{
@@ -6,7 +6,7 @@
     display: flex;
     padding: 10px;
     gap: 10px;
-    background-color:blue;   
+    background-color: c.$color-fondo;  
    ;
     .historia__foto{
 
@@ -30,7 +30,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        color: white;
+        color: c.$color-parrafo;
         background-color:black;
         padding-left: 10px;
             

@@ -1,4 +1,4 @@
-@use '_commons';
+@use '_commons' as c;
 
 
 
@@ -10,6 +10,7 @@
         justify-content: space-around;
         align-items: center;
         align-content: center;
+        background-color: c.$color-fondo;
 }
 
 

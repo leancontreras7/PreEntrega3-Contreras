@@ -1,4 +1,4 @@
-@use '_commons';
+@use '_commons' as c;
 
 
 
@@ -15,7 +15,7 @@ header{
     justify-content: space-around;
     align-items: center;
     align-content: stretch;
-    background: linear-gradient(to right, black, #484848);
+    background: linear-gradient(to right, black, c.$color-fondo);
     list-style: none;
 
   }
@@ -39,15 +39,13 @@ nav ul li{
 
 nav ul li a{
 
-  color: white;
+  color: c.$color-parrafo;
   text-decoration: none;
   
 
   &:hover{
-    text-shadow: 0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 40px #fff,
-    ;
+    
+    @include c.sombras;
 
   }
 }

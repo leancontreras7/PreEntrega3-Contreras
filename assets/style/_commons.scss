@@ -26,9 +26,18 @@ $color-parrafo: #fff;
     0 0 20px #fff,
     0 0 40px #fff,
     ;
-    background-color: $color-fondo;
+    background-color:$color-fondo;
 
     
     
 }
 
+//mixin sombras de letras
+
+@mixin sombras{
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    ;
+
+}

@@ -1,4 +1,4 @@
-@use '_commons';
+@use '_commons' as c;
 
 .contenedor__gallery{
     display: grid;
@@ -6,6 +6,7 @@
     box-sizing: border-box;
     gap:calc(10px + 10px);
     padding: 20px;
+    background-color: c.$color-fondo;
     
 
 

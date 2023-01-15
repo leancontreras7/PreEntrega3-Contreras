@@ -1,4 +1,4 @@
-@use '_commons';
+@use '_commons' as c;
 
 .contactos__container{
 
@@ -8,20 +8,12 @@
 
 .form-label{
 
-    font-size: 20px;
-    text-shadow: 0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 40px #fff,
-    ;
+    @include c.sombras;
 }
 
 .form-text{
 
-    color: black;
+    color: c.$color-titulares;
     font-size: 20px;
-    text-shadow: 0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 40px #fff,
-    ;
-
+    @include c.sombras;
 }
