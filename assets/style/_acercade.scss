@@ -1,39 +1,24 @@
 @use '_commons' as c;
 
 
-#contenedor__historia{
+#container__nosotros{
+    
 
-    display: flex;
-    padding: 10px;
-    gap: 10px;
-    background-color: c.$color-fondo;  
-   ;
-    .historia__foto{
-
-        width: calc(100%/2);
-        border-radius: 5px;
-    
-    
-        &:hover{
-    
-            filter: opacity(0.9);
-            transform: scale(1.06);
-        }
+    .container__nosotros__foto{
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+        box-shadow: 0px 10px 10px #000;
         
-    
     }
-    
-    
-    
-    .historia__texto{
-        font-size: 3vw;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: c.$color-parrafo;
-        background-color:black;
-        padding-left: 10px;
-            
+
+
+    .container__nosotros__texto{
+
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 1.3em;
     }
 
 }
